@@ -2,7 +2,7 @@
 
 ### 20210705_mon
 
-__1. seminar 
+__ 1. seminar __
 1 ) cross modal representation learning 
 
   두가지 이상의 데이터가 주어졌을 때, 한 가지를 기반으로 나머지 한가지 정보를 배우는 등의 방식. 
