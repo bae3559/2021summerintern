@@ -90,4 +90,6 @@ print(os.environ['PYOPENGL_PLATFORM'])
 그리고 이거 설치랑, 
 requirements 설치할 때, pyglet==1.4.0b1로 바꿔서 하기!
 
+근데 문제는 pyrender.Viewer()이 안되는데 왜,,안되는지 모르겠다.
+
 
