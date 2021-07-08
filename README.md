@@ -71,6 +71,7 @@ SPIN 은 pytorch, python3 로 되어있기 때문에 이후에 코딩할 때도 
 HMR을 몇 번 읽었더니 이제 조금 알 것 같은데 몇 개 질문이 생겼다. 
 
 q1. Figure2에는 camera 관련 파라미터로 T가 있는데, 실제로 본문에 설명에서는 s, R, t로 하나씩 설명이 되어있다. T=t인건가?
+
 q2. 본문 중 'The 3D key points used for reprojection error, X(theta, beta) R^(3xp) , are obtained by linear regression from the final mesh vertices. 
 여기서 P가 갑자기 어디서 나온 값인지 잘 모르겠다. P? joint 개수 인걸까? X()는 3차원 joints들이 아닌가?
 
@@ -90,6 +91,6 @@ print(os.environ['PYOPENGL_PLATFORM'])
 그리고 이거 설치랑, 
 requirements 설치할 때, pyglet==1.4.0b1로 바꿔서 하기!
 
-근데 문제는 pyrender.Viewer()이 안되는데 왜,,안되는지 모르겠다.
+*근데 문제는 pyrender.Viewer()이 안되는데 왜,,안되는지 모르겠다.
 
 
