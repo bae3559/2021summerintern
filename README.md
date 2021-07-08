@@ -78,4 +78,16 @@ q2. 본문 중 'The 3D key points used for reprojection error, X(theta, beta) R^
 SPIN이랑 HMR 코드를 조금씩 살펴보다가, pyrender와 pytorch를 이해해야 코드를 보기 편할 것 같다고 생각했다. 
 pyrender를 실행시키는 환경은 그리 문제가 되지는 않았다. colab에서 실행시켜보았고, 
 https://pyrender.readthedocs.io/en/latest/examples/quickstart.html 을 참고하여 여러 가지 rendering을 해보았다. 
+ 
+잊지 말고 런타임 유형 GPU로 바꾸기~ 
+
+```
+import os
+os.environ["PYOPENGL_PLATFORM"] = "egl" #opengl seems to only work with TPU
+!PYOPENGL_PLATFORM=egl python -c "from OpenGL import EGL"
+print(os.environ['PYOPENGL_PLATFORM']) 
+```
+그리고 이거 설치랑, 
+requirements 설치할 때, pyglet==1.4.0b1로 바꿔서 하기!
+
 
