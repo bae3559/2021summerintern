@@ -113,6 +113,14 @@ __1. PyTorch 예제 공부__
 
 1) 모두의 딥러닝 2 Lab10-1 부터 Lab10-6-2 듣고 예제 실행시켜보기  
 2) ResNet50 구현
-3) HMR 논문 뒷 부분 읽기 
-4) SPIN 논문 조금 읽기 
-5) SPIN 코드 보기 
+
+- 문제 없이 1),2) 는 다 잘 함.
+
+4) HMR 논문 뒷 부분 읽기 
+5) SPIN 논문 조금 읽기 
+6) SPIN 코드 보기 
+
+- SPIN 코드를 실행시키기 위해 pip install -r requirement.txt를 진행하면, 
+spacepy를 설치하지 못해서 계속 에러가 난다. 어떻게 해서 spacepy-master.zip unzip해서 직접 source install했는데 scipy도 에러가 있다..
+
+ 
