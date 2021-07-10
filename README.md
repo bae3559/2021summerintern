@@ -123,4 +123,26 @@ __1. PyTorch 예제 공부__
 - SPIN 코드를 실행시키기 위해 pip install -r requirement.txt를 진행하면, 
 spacepy를 설치하지 못해서 계속 에러가 난다. 어떻게 해서 spacepy-master.zip unzip해서 직접 source install했는데 scipy도 에러가 있다..
 
+ -----------------------------------------------------------------------------------------------------
  
+ ### 20210710_(Sat)
+ 
+ __1. VIBE colab에서 demo 실행시켜보기__
+ 
+ * 원래 sample 영상으로 실행 시켜보기 
+ * sample 영상 말고 다른 영상으로도 실행 시켜보기.
+
+youtube에서 다른 춤추는 영상을 넣어서 실행시켜본 결과! 생각보다 더 잘 나왔다. 
+
+![image](https://user-images.githubusercontent.com/42258047/125156716-e3a29780-e1a1-11eb-958a-60db915b9ec1.png)
+
+__2. VIBE 논문 읽기__
+
+그래서 VIBE의 논문을 읽어보던 중, 
+LSTM을 변형한 GRU라는 모르는 내용이 나와서
+공부를 하기로함. 
+
+* GRU 공부하기 
+
+__3. VIBE colab 파일에서 환경설정부분만 따오기! --> HMR, SPIN 실행시 킬 수 있도록 해보기.__
+
