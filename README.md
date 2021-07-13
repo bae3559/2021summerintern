@@ -148,4 +148,32 @@ __3. VIBE colab 파일에서 환경설정부분만 따오기! --> HMR, SPIN 실�
 
 __4. 교수님께 메일 답장드리기__
 
+-----------------------------------------------------------------------------------------------------
+
+### 20210712_(Mon)
+
+__1. Pytorch3d + Densepose rendering __
+
+pytorch3d로 3d human mesh를 rendering 해봄. 기본 모양은 smpl mean model를 사용했음.
+ 
+__2. SPIN 논문 읽기 __
+
+SPIN 논문을 자세히 읽어야 어떤 점이 개선 되었는지를 보고 나도 개선 시키는데에 방향성을 좀 알수 있지 않을까 싶어 공부함. 반정도 읽음.
+
+__3. Seminar__
+
+- HuMoR: 3D Human Motion Model for Robust Pose Estimation
+- Unsupervised Learning of 3D object categories from Videos in the Wild
+
+-----------------------------------------------------------------------------------------------------
+
+### 20210713_(Tue)
+
+__1. 발표자료 만들기__
+
+
+__2. SPIN 논문 마저 읽기__
+
+
+__3. 학습.. 뭔가 학습 시켜보기..?__
 
