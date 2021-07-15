@@ -207,9 +207,8 @@ pip install -r requirements.txt
 ```
 
 #### 2) neural_renderer_pytorch github  파일을 다운받은 후에 pip install .__
-cuda 폴더 안에 있는 cpp 파일 3개에서 AT_CHECK 를 AT ASSERT로 바꾼다. 
-
-하지만 ..난 이 방법이 잘 안됐는데 아마 환경 변수 설정을 애초에 잘 못 했던것 같다. 
+cuda 폴더 안에 있는 cpp 파일 3개에서 AT_CHECK 를 AT ASSERT로 바꾼다.
+export CUDA_HOME="/usr/local/cuda-10.2/"
 
 
 그래서 그냥 다시 해볼 때에는 , 
@@ -221,3 +220,8 @@ __2. my model.py 수정__
 __3. 특정 gpu에서 학습하는 방법 공부__
 
 __4. 학습 돌리기~__
+
+
+참고로 conda env 중에 
+humanpose는 torch 1.1.0
+spin 은 torch 1.6.0 
