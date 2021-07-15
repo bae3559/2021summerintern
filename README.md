@@ -181,4 +181,43 @@ __3. 학습.. 뭔가 학습 시켜보기..?__
 __4. 학습 보다는 3DPW preprocessing__
 
 - tfrecords 파일 형식 읽고 쓰기 예제
-- 
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+### 20210715_(Thu)
+
+__1. server에서 가상환경 만들고 환경 세팅__
+
+또 neural_renderer_pytorch가 설치 에러가 났다. 
+
+
+* issue: pip install neural_renderer_pytorch
+
+#### 1) SPIN/requirements.txt
+
+ requirements.txt 파일에서 우선 두 가지 내용을 수정해준다. 
+  
+ 첫 번째는, line1 에 있는 neural-renderer-pytorch를 지운다.(얘는 따로 깔면 계속 에러가 나서 일단 지우고 나중에 manual하게 설치할 것)
+ 두 번째는, line 12에 있는 torch version을 1.6.0으로 바꾼다. 
+
+```
+pip install -r requirements.txt
+```
+
+#### 2) neural_renderer_pytorch github  파일을 다운받은 후에 pip install .__
+cuda 폴더 안에 있는 cpp 파일 3개에서 AT_CHECK 를 AT ASSERT로 바꾼다. 
+
+하지만 ..난 이 방법이 잘 안됐는데 아마 환경 변수 설정을 애초에 잘 못 했던것 같다. 
+
+
+그래서 그냥 다시 해볼 때에는 , 
+
+ torch를 spin에서 말한 대로 1.1.0 으로 깔고 , export CUDA_HOME="/usr/local/cuda-10.2"로 하고 cpp 파일 다 안 건들이고도 성공! 
+ 
+__2. my model.py 수정__
+
+__3. 특정 gpu에서 학습하는 방법 공부__
+
+__4. 학습 돌리기~__
