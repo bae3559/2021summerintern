@@ -28,3 +28,25 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 | train_add_smpl_loss2 | 위와 동일하게 2트 | 하지만 마찬가지로 loss가 너무 큼. 그리고 pose, beta가 전혀 업데이트가 안되는 것 같음.
 | train_add_smpl_loss3 | 이것 저것 문제점을 고침. has_smpl이라는 값이 이상하게 다 0이었는데 이는 mixed dataset에서 indexing을 0부터 시작하도록 고쳐줌. 그리고 tqdm 부분을 조금 고쳐서 각 loss들이 같이 progress bar에 나타나게 수정함. | 중간에 결과를 확인했는데 일단 keypoint loss랑 loss 자체가 너무 너무 커서 ... 뭔가 ..이상함..  이유 중 하나로 생각 되는 것은 내가 pretrained resnet을 안쓰고 쌩으로 다 하려해서..그랬던 것으로 알게 되어 4는 pretrained 부분을 Trure로 다시 고쳐서 시도 함. 
 |train_add_smpl_loss4 | mymodel() 부분에서 pretrained=True로 다시 고쳤다. | 현제 0720날짜로 11시쯤 시작함. loss값은 약 14-20 사이로 정상적인 것 같음.. 위에서는 e7까지 같던 것을 생각함ㄴ 매우 정상적. |
+
+
+
+---------------------------------------------------------------------------------------------------
+
+## ISSUE
+
+__1. GPU 0번에 계속 조금씩 allocate 됨__
+![image](https://user-images.githubusercontent.com/42258047/126368627-bedc572e-c344-444f-8399-0a4653659db3.png)
+
+위 사진을 통해 알 수 있듯이 현재, 나는 2번 GPU를 쓰도록, 다른 사람은 7번을 쓰도록 코드를 작성하고 
+코드를 실행 시켰는데 항상 0번에 10MiB 정도는 allocate 되는 것 같은 issue가 있다. 
+
+__2. GPU-Util이 계속 0으로 돌아감__
+
+아마 tensorboard에 업로드 하는 과정 및 dataloading 과정에서 CPU를 사용하는 것 같다. 그런데 그게 생각보다 오래 걸린다. 
+
+5epoch을 도는 동안 3시간이 걸렸음. 
+
+이 속도면 50epoch이면 30시간이 걸린다는... 
+이전 ( train_add_smpl_loss4 이전 ) 까지는 한 10시간 정도 걸린 것을 생각하면,, 그 동안 정말 제대로 학습이 안되고 있었기 때문이거나
+현재 gpu를 제대로 활용하지 못하고 있어서 연산이 느린 것 같다. 
