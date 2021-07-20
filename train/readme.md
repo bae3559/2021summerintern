@@ -19,9 +19,10 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 
 -----------------------------------------------------------------------------------------------------------
 
-name | options | results
-train_test | my_model()에서 n_iter을 없앤 것 
-train_add_regression | my_model()에서 for (n_iter=3)문을 추가한 것. (regression부분) | 딱히 학습이 잘 안됨 
+| name | options | results |
+|:---|---:|:---:|
+| train_test | my_model()에서 n_iter을 없앤 것 | |
+| train_add_regression | my_model()에서 for (n_iter=3)문을 추가한 것. (regression부분) | 딱히 학습이 잘 안됨 |
 train_add_regression2 | 위와 동일 , batch_size = 100으로 수정 | 모양은 어느정도 맞지만, 기괴한 모양... beta랑 pose를 학습 안 시켰으니까 당연한 결과
 train_add_smpl_loss | 이번에는 smpl loss 들을 추가함. | 근데 이상하게 중간에 22epoch중에 에러가 뜸. 
 train_add_smpl_loss2 | 위와 동일하게 2트 | 하지만 마찬가지로 loss가 너무 큼. 그리고 pose, beta가 전혀 업데이트가 안되는 것 같음.
