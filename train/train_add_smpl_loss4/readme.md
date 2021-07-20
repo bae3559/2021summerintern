@@ -1,3 +1,14 @@
+## train results
+
+#### At 3 epoch
+
+3 epoch째 인데도 불구하고 이전 결과들과 다르게 틀이 잡혀있음을 알 수 있다. 
+또한 beta랑 pose가 다 잘 업데이트 되고 있음을 알 수 있다!
+
+![3epoch](https://user-images.githubusercontent.com/42258047/126360625-3a9bf55e-124d-43d3-8b8e-d74639e1e05f.png){: width="400" height="100"}
+
+
+
 ### train options
 
 train_add_smple_loss4 
