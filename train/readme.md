@@ -36,7 +36,8 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 ## ISSUE
 
 __1. GPU 0번에 계속 조금씩 allocate 됨__
-![image](https://user-images.githubusercontent.com/42258047/126368627-bedc572e-c344-444f-8399-0a4653659db3.png)
+
+<img src="https://user-images.githubusercontent.com/42258047/126368627-bedc572e-c344-444f-8399-0a4653659db3.png" width="200">
 
 위 사진을 통해 알 수 있듯이 현재, 나는 2번 GPU를 쓰도록, 다른 사람은 7번을 쓰도록 코드를 작성하고 
 코드를 실행 시켰는데 항상 0번에 10MiB 정도는 allocate 되는 것 같은 issue가 있다. 
