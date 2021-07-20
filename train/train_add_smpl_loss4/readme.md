@@ -49,3 +49,7 @@ train.add_argument('--smplify_threshold', type=float, default=100., help='Thresh
 train.add_argument('--num_smplify_iters', default=100, type=int, help='Number of SMPLify iterations') 
         
 ```
+
+### train time 
+
+training 시작시간이 20210720 23:20 즈음임. 
