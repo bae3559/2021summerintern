@@ -6,15 +6,12 @@
 또한 beta랑 pose가 다 잘 업데이트 되고 있음을 알 수 있다!
 
 ![3epoch](https://user-images.githubusercontent.com/42258047/126360625-3a9bf55e-124d-43d3-8b8e-d74639e1e05f.png) ![3epoch_2](https://user-images.githubusercontent.com/42258047/126360917-d20fc627-4719-41b7-b9e6-83e11f33b685.png)
-
+<img src="https://user-images.githubusercontent.com/42258047/126361507-0a65f9db-07a1-42ec-be8a-a06c76d090d8.png" width="100">
 loss 들도 다 생각보다 더 괜찮은 양상을 보여주고 있다! 내일이 되어야 전체 결과를 알 수 있겠지만! 
 
 | loss | loss_pose | loss_betas | loss_keypoints |
 |:---:|:---:|:---:|:---:|
-| ![3epoch_loss](https://user-images.githubusercontent.com/42258047/126361507-0a65f9db-07a1-42ec-be8a-a06c76d090d8.png) | 
-![3epoch_loss_regr_pose](https://user-images.githubusercontent.com/42258047/126361513-03fe52e9-add6-4774-b0eb-a1371f67f22b.png) | 
-![3epoch_loss_regr_betas](https://user-images.githubusercontent.com/42258047/126361516-233ecc8a-0e6c-4594-b3ef-0ad8daba07b3.png) | 
-![3epoch_loss_keypoints](https://user-images.githubusercontent.com/42258047/126361520-380ca33f-07f0-49a9-9ec0-2b68050d1eb8.png) |
+|<img src="https://user-images.githubusercontent.com/42258047/126361507-0a65f9db-07a1-42ec-be8a-a06c76d090d8.png" width="100"> |<img src="https://user-images.githubusercontent.com/42258047/126361513-03fe52e9-add6-4774-b0eb-a1371f67f22b.png" width="100">| <img src="https://user-images.githubusercontent.com/42258047/126361516-233ecc8a-0e6c-4594-b3ef-0ad8daba07b3.png" width="100">  | <img src="https://user-images.githubusercontent.com/42258047/126361520-380ca33f-07f0-49a9-9ec0-2b68050d1eb8.png" width="100"> |
 
 
 
