@@ -11,7 +11,7 @@ loss 들도 다 생각보다 더 괜찮은 양상을 보여주고 있다! 내일
 
 | loss | loss_pose | loss_betas | loss_keypoints |
 |:---:|:---:|:---:|:---:|
-|<img src="https://user-images.githubusercontent.com/42258047/126361507-0a65f9db-07a1-42ec-be8a-a06c76d090d8.png" width="200"> |<img src="https://user-images.githubusercontent.com/42258047/126361513-03fe52e9-add6-4774-b0eb-a1371f67f22b.png" width="200">| <img src="https://user-images.githubusercontent.com/42258047/126361516-233ecc8a-0e6c-4594-b3ef-0ad8daba07b3.png" width="200">  | <img src="https://user-images.githubusercontent.com/42258047/126361520-380ca33f-07f0-49a9-9ec0-2b68050d1eb8.png" width="200"> |
+|<img src="https://user-images.githubusercontent.com/42258047/126361507-0a65f9db-07a1-42ec-be8a-a06c76d090d8.png" width="250"> |<img src="https://user-images.githubusercontent.com/42258047/126361513-03fe52e9-add6-4774-b0eb-a1371f67f22b.png" width="250">| <img src="https://user-images.githubusercontent.com/42258047/126361516-233ecc8a-0e6c-4594-b3ef-0ad8daba07b3.png" width="250">  | <img src="https://user-images.githubusercontent.com/42258047/126361520-380ca33f-07f0-49a9-9ec0-2b68050d1eb8.png" width="250"> |
 
 
 
