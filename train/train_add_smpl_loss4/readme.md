@@ -1,6 +1,6 @@
 ## train results
 
-#### At 3 epoch
+## At 3 epoch
 
 3 epoch째 인데도 불구하고 이전 결과들과 다르게 틀이 잡혀있음을 알 수 있다. 
 또한 beta랑 pose가 다 잘 업데이트 되고 있음을 알 수 있다!
@@ -12,6 +12,40 @@ loss 들도 다 생각보다 더 괜찮은 양상을 보여주고 있다! 내일
 | loss | loss_pose | loss_betas | loss_keypoints | loss_shape |
 |:---:|:---:|:---:|:---:|:---:|
 |<img src="https://user-images.githubusercontent.com/42258047/126361507-0a65f9db-07a1-42ec-be8a-a06c76d090d8.png" width="250"> |<img src="https://user-images.githubusercontent.com/42258047/126361513-03fe52e9-add6-4774-b0eb-a1371f67f22b.png" width="250">| <img src="https://user-images.githubusercontent.com/42258047/126361516-233ecc8a-0e6c-4594-b3ef-0ad8daba07b3.png" width="250">  | <img src="https://user-images.githubusercontent.com/42258047/126361520-380ca33f-07f0-49a9-9ec0-2b68050d1eb8.png" width="250"> |<img src="https://user-images.githubusercontent.com/42258047/126362319-82363e55-7095-4967-bd44-30b6c8bcb7da.png" width="250"> | 
+
+## At 20 epoch 
+
+
+
+## Final Results
+![image](https://user-images.githubusercontent.com/42258047/126597257-4f94e2f4-9668-41c2-8523-647d9ac8972a.png)
+
+![image](https://user-images.githubusercontent.com/42258047/126596924-23e5500c-271d-4f1d-8787-ee9bee977f7f.png)
+![image](https://user-images.githubusercontent.com/42258047/126596949-82c9b64f-c1f3-431c-81da-913f71260ee0.png)
+![image](https://user-images.githubusercontent.com/42258047/126597185-a6ee47aa-5c94-434d-b5bb-2ba9dac2270f.png)
+![image](https://user-images.githubusercontent.com/42258047/126597212-85051ba9-e0ef-493f-8598-31c3fad331a6.png)
+
+### loss
+
+| loss | loss_pose | loss_betas | loss_keypoints | loss_shape |
+|:---:|:---:|:---:|:---:|:---:|
+|<img src="https://user-images.githubusercontent.com/42258047/126597394-0d2d7ed0-1e7d-41e3-b93c-796fa94a14ac.png" width="250"> |<img src="https://user-images.githubusercontent.com/42258047/126597461-c723ed87-cd13-4389-b81d-457ff7afadff.png" width="250">| <img src="hhttps://user-images.githubusercontent.com/42258047/126597542-6b9e5ef7-432b-4823-9a17-0dd8b4efc9df.png" width="250">  | <img src="https://user-images.githubusercontent.com/42258047/126597627-9704485c-04fa-4796-887c-c73c8454d42d.png" width="250"> |<img src="https://user-images.githubusercontent.com/42258047/126597496-2e424aed-5cd3-4d95-a4bb-dc4e09276826.png" width="250"> | 
+
+
+#### Failure case
+![image](https://user-images.githubusercontent.com/42258047/126597002-9c97e9ef-34b0-4154-b5cd-935963a96e9a.png)
+
+![image](https://user-images.githubusercontent.com/42258047/126597014-7f0031cf-053f-4f5b-b049-8cc74b7ae061.png)
+
+![image](https://user-images.githubusercontent.com/42258047/126597041-83ddf704-a6d6-4571-a51c-3b7dace803ea.png)
+
+![image](https://user-images.githubusercontent.com/42258047/126597058-40a417cf-764b-4144-aeba-fc78ae1a334c.png)
+
+![image](https://user-images.githubusercontent.com/42258047/126597141-04788676-f0f3-4429-a4ca-8f4b2649e400.png)
+
+
+
+
 
 
 ### Question 
@@ -53,6 +87,7 @@ train.add_argument('--num_smplify_iters', default=100, type=int, help='Number of
 ### train time 
 
 training 시작시간이 20210720 23:20 즈음임. 
+끝난게 얼추 21일 23시 50분 이니, 24시간 정도 걸린 것 같다. 
 
 
 ### train parameter
