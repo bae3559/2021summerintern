@@ -53,3 +53,11 @@ train.add_argument('--num_smplify_iters', default=100, type=int, help='Number of
 ### train time 
 
 training 시작시간이 20210720 23:20 즈음임. 
+
+
+### train parameter
+
+![image](https://user-images.githubusercontent.com/42258047/126589259-f621b89b-943f-434e-ab1d-6833e3c581e7.png)
+
+총 33,916,439
+
