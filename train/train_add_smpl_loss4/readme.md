@@ -25,11 +25,13 @@ loss 들도 다 생각보다 더 괜찮은 양상을 보여주고 있다! 내일
 ![image](https://user-images.githubusercontent.com/42258047/126597185-a6ee47aa-5c94-434d-b5bb-2ba9dac2270f.png)
 ![image](https://user-images.githubusercontent.com/42258047/126597212-85051ba9-e0ef-493f-8598-31c3fad331a6.png)
 
+
+
 ### loss
 
 | loss | loss_pose | loss_betas | loss_keypoints | loss_shape |
 |:---:|:---:|:---:|:---:|:---:|
-|<img src="https://user-images.githubusercontent.com/42258047/126597394-0d2d7ed0-1e7d-41e3-b93c-796fa94a14ac.png" width="250"> |<img src="https://user-images.githubusercontent.com/42258047/126597461-c723ed87-cd13-4389-b81d-457ff7afadff.png" width="250">| <img src="hhttps://user-images.githubusercontent.com/42258047/126597542-6b9e5ef7-432b-4823-9a17-0dd8b4efc9df.png" width="250">  | <img src="https://user-images.githubusercontent.com/42258047/126597627-9704485c-04fa-4796-887c-c73c8454d42d.png" width="250"> |<img src="https://user-images.githubusercontent.com/42258047/126597496-2e424aed-5cd3-4d95-a4bb-dc4e09276826.png" width="250"> | 
+|<img src="https://user-images.githubusercontent.com/42258047/126597394-0d2d7ed0-1e7d-41e3-b93c-796fa94a14ac.png" width="250"> |<img src="https://user-images.githubusercontent.com/42258047/126597461-c723ed87-cd13-4389-b81d-457ff7afadff.png" width="250">| <img src="https://user-images.githubusercontent.com/42258047/126597542-6b9e5ef7-432b-4823-9a17-0dd8b4efc9df.png" width="250">  | <img src="https://user-images.githubusercontent.com/42258047/126597627-9704485c-04fa-4796-887c-c73c8454d42d.png" width="250"> |<img src="https://user-images.githubusercontent.com/42258047/126597496-2e424aed-5cd3-4d95-a4bb-dc4e09276826.png" width="250"> | 
 
 
 #### Failure case
