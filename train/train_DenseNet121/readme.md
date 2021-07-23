@@ -36,5 +36,5 @@ densenet이 아니라 resnet을 쓴 이유가 있을 것 같기도하다.
 
 |  | 3dpw | lsp | mpi-inf-3dhp | 
 |:--:|:--:|:--:|:--:|
-| MPJPE | 273.95 | | |
-| Reconstruction Error | 127.44 | | |
+| MPJPE | 273.95 | | 287.97 |
+| Reconstruction Error | 127.44 | | 142.93 |
