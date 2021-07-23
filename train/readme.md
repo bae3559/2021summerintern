@@ -29,6 +29,38 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 | train_add_smpl_loss3 | 이것 저것 문제점을 고침. has_smpl이라는 값이 이상하게 다 0이었는데 이는 mixed dataset에서 indexing을 0부터 시작하도록 고쳐줌. 그리고 tqdm 부분을 조금 고쳐서 각 loss들이 같이 progress bar에 나타나게 수정함. | 중간에 결과를 확인했는데 일단 keypoint loss랑 loss 자체가 너무 너무 커서 ... 뭔가 ..이상함..  이유 중 하나로 생각 되는 것은 내가 pretrained resnet을 안쓰고 쌩으로 다 하려해서..그랬던 것으로 알게 되어 4는 pretrained 부분을 Trure로 다시 고쳐서 시도 함. 
 |train_add_smpl_loss4 | mymodel() 부분에서 pretrained=True로 다시 고쳤다. | 현제 0720날짜로 11시쯤 시작함. loss값은 약 14-20 사이로 정상적인 것 같음.. 위에서는 e7까지 같던 것을 생각함ㄴ 매우 정상적. |
 | train_DenseNet121 | resnet 을 backbone 으로 한 위 학습들이랑 다르게 이번에는 Densenet 121을 백본으로 한 학습을 진행해보았다. 확실히 parameter 수가 엄청나게 차이난다. | 지금은 1epoch 돌고 있는데 위와 마찬가지로 loss 가 14-25 사이인거 같고 학습이 잘 될지는 해봐야 알 수 있을 듯 하다. | 
+| train_DenseNet169 | DenseNet169는 딱히 성능이 나오진 않았다. 실제로 loss도 그리 많이 낮아지지 않았고, 그래서 이번에는 DenseNet 169로 진행해보고자 한다. | |
+
+----------------------------------------------------------------------------------------------------
+
+## DenseNet
+Densenet 121을 backbone으로 해서 학습을 진행해보고자 한다. 
+
+실제로 parameter 수는 resnet보다 줄이면서 성능은 높거나 그 비슷하게 나왔던 이전 논문들의 결과를 보면서 
+
+resnet 부분을 한 번 바꿔보는 시도도 재밌을 것 같다고 생각해서 직접 해보고 있다.
+
+문제는 지금 일단 학습 시키는데 너무 오랜 시간이 걸리다 보니 급하게 densenet을 끼워 넣어서 학습을 돌리고 있는데, 
+
+densent을 정확하게 이해하고 코딩을 한 것이 아니라서 어떤 오류를 범했을지는 나도 잘 모르겠다. 
+
+![image](https://user-images.githubusercontent.com/42258047/126596370-1bb03657-8809-4f86-991b-ff74fc859a71.png)
+
+위 사진을 기반으로 하여 우선 densent 121을 돌려보았고, 
+
+잘 되면 densenet 169 를 시도해볼 계획이다. 
+
+이후 어느정도 accuracy가 보장된다면, 
+
+여기에서 prunning을 더 해보는 시도도 해보려한다. 
+
+사실 Densenet이 cvpr 2017 bestpaper이고, hmr이 cvpr2018 이었던 걸 생각해보면
+
+densenet이 아니라 resnet을 쓴 이유가 있을 것 같기도하다. 
+
+하지만 직접 실험해보고 결과를 보고 싶어서 해보는 것이니, 큰 기대는 말자. 
+
+
 
 
 
