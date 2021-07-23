@@ -13,6 +13,13 @@
 | MPJPE | 273.95 | | 287.97 |
 | Reconstruction Error | 127.44 | | 142.93 |
 
+
+### Train Parameters
+
+3,494,447
+
+
+
 ### Train Options
 
 ```
