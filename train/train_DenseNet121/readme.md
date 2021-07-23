@@ -25,4 +25,16 @@ densenet이 아니라 resnet을 쓴 이유가 있을 것 같기도하다.
 하지만 직접 실험해보고 결과를 보고 싶어서 해보는 것이니, 큰 기대는 말자. 
 
 
+## DenseNet121
 
+실제로 체감상으로도 학습 속도가 조금 빠른 것 같긴 했다. 
+
+### Train Results
+
+
+### Evaluation Results
+
+|  | 3dpw | lsp | mpi-inf-3dhp | 
+|:--:|:--:|:--:|:--:|
+| MPJPE | 273.95 | | |
+| Reconstruction Error | 127.44 | | |
