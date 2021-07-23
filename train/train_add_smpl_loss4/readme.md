@@ -34,6 +34,16 @@ loss 들도 다 생각보다 더 괜찮은 양상을 보여주고 있다! 내일
 |<img src="https://user-images.githubusercontent.com/42258047/126597394-0d2d7ed0-1e7d-41e3-b93c-796fa94a14ac.png" width="250"> |<img src="https://user-images.githubusercontent.com/42258047/126597461-c723ed87-cd13-4389-b81d-457ff7afadff.png" width="250">| <img src="https://user-images.githubusercontent.com/42258047/126597542-6b9e5ef7-432b-4823-9a17-0dd8b4efc9df.png" width="250">  | <img src="https://user-images.githubusercontent.com/42258047/126597627-9704485c-04fa-4796-887c-c73c8454d42d.png" width="250"> |<img src="https://user-images.githubusercontent.com/42258047/126597496-2e424aed-5cd3-4d95-a4bb-dc4e09276826.png" width="250"> | 
 
 
+### Evaluation Results
+
+|  | 3dpw | lsp | mpi-inf-3dhp | 
+|:--:|:--:|:--:|:--:|
+| MPJPE | 129.72 | | 117.69 |
+| Reconstruction Error | 70.66 | | 78.10 |
+
+
+
+
 #### Failure case
 ![image](https://user-images.githubusercontent.com/42258047/126597002-9c97e9ef-34b0-4154-b5cd-935963a96e9a.png)
 
