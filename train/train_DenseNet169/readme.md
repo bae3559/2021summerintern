@@ -28,7 +28,15 @@ shape
 
 ### Evaluation Results
 
-|  | 3dpw | lsp | mpi-inf-3dhp | 
-|:--:|:--:|:--:|:--:|
-| MPJPE | 121.13 | | 112.89 |
-| Reconstruction Error | 71.37 | | 76.54 |
+|  | 3dpw | mpi-inf-3dhp | 
+|:--:|:--:|:--:|
+| MPJPE | 121.13 | 112.89 |
+| Reconstruction Error | 71.37 | 76.54 |
+
+
+| | lsp | 
+|:--:|:--:|
+| Accuracy | 0.899 |
+| F1 | 0.8369 |
+| Parts Accuracy | 0.8716 |
+| Parts F1 (BG) | 0.6065 | 
