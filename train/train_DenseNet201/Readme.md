@@ -9,7 +9,7 @@
 train = self.parser.add_argument_group('Training Options')
 train.add_argument('--num_epochs', type=int, default=50, help='Total number of training epochs')
 train.add_argument("--lr", type=float, default=5e-5, help="Learning rate")
-train.add_argument('--batch_size', type=int, default=40, help='Batch size')
+train.add_argument('--batch_size', type=int, default=45, help='Batch size')
 train.add_argument('--summary_steps', type=int, default=50, help='Summary saving frequency')
 train.add_argument('--test_steps', type=int, default=1000, help='Testing frequency during training')
 train.add_argument('--checkpoint_steps', type=int, default=10000, help='Checkpoint saving frequency')
