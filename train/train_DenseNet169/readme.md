@@ -18,10 +18,10 @@
 
 ### Evaluation Results
 
-|  | 3dpw | mpi-inf-3dhp | h36m-p1 |
-|:--:|:--:|:--:|:--:|
-| MPJPE | 121.13 | 112.89 | 131.1224 |
-| Reconstruction Error | 71.37 | 76.54 | 77.22 |
+|  | 3dpw | mpi-inf-3dhp | h36m-p1 | h36m-p2 |
+|:--:|:--:|:--:|:--:|:--:|
+| MPJPE | 121.13 | 112.89 | 131.1224 | 137.848 |
+| Reconstruction Error | 71.37 | 76.54 | 77.22 | 76.174 | 
 
 
 | | lsp | 
