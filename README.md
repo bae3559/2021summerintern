@@ -259,3 +259,35 @@ __5. 논문 공부__
 + SimpLify 꼭 다시 읽기!!!
 + SPIN 다시 읽기!!~~~
 + NBF 
+
+
+---------------------------------------------------------------------------
+
+#### 20210724 
+
+__.1 내 컴터에서 서버 tensorboard 뛰우기__
+
+  1) 서버 명령창에서 tensorboard --logdir=$log를 치면 
+
+![image](https://user-images.githubusercontent.com/42258047/126865735-ff01b097-8bed-455b-b3b3-9badb6c42a99.png)
+
+  2) 위 결과에서 나온 localhost:6008 여기로 최종적으로 갈건데 
+  3) 이제 내 컴퓨터로 돌아와서 컴퓨터 cmd 창을 연다
+  4) ssh -L 6008:localhost:6008 urp@141.223.166.179 -p 22
+  5) ssh -L 6008:localhost:6008 urp8@141.223.16.183 -p 22
+  6) ssh -L 6008:localhost:6008 urp8@gpu02 -p 22
+
+까지 하면 끝 ! 이러고 이제 크롬에서 localhost:6008 치면 tensorboard가 뜬다! 
+
+__2. nohup이나 tmux 사용__
+
+ nohup 사용해서 백그라운드에 실행시키기! 
+ 
+ nohup은 따로 다운 받을 필요가 없다. 그래서 nohup python3 train.py --name train_DenseNet169 & 
+ 이렇게 하면 이제 서버상에서 돌아가게 되고 
+ 
+ 혹시 불안하면 이제 nohup.out에 로그가 다 저장되는데 이걸 켜서 볼 수도 있다. 
+ tail -f nohup.out
+ 을 치면 된다!! 
+ 
+ 
