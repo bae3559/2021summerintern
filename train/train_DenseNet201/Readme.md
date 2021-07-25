@@ -3,8 +3,44 @@
 22410245
 
 
+### Final Results
+
+
+
+
+
+### Loss( it is not the result of DenseNet201 )
+| loss | loss_pose | loss_betas | loss_keypoints | loss_shape |
+|:---:|:---:|:---:|:---:|:---:|
+|<img src="https://user-images.githubusercontent.com/42258047/126870107-ab7acda3-2505-43d3-b029-c6cf5a65a286.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/126870133-b5afb29d-9d13-4af7-92ea-72758369802f.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/126870124-7056e062-819f-4b5b-80ef-1d5bc1e5a913.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/126870113-313d1c15-6a62-4007-a39c-b1a036c75178.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/126870148-94dbfcb9-8dff-4c9c-a47e-63b321a43ba8.png" width="300">| 
+
+
+### Evaluation Results
+
+|  | 3dpw | mpi-inf-3dhp | h36m-p1 | h36m-p2 |
+|:--:|:--:|:--:|:--:|:--:|
+| MPJPE |  |  |  |  |
+| Reconstruction Error |  |  |  |  | 
+
+
+| | lsp | 
+|:--:|:--:|
+| Accuracy |  |
+| F1 |  |
+| Parts Accuracy |  |
+| Parts F1 (BG) |  | 
+
+
+### Failure Case
+
+
 
 ### train options
+
+There is issue with 'load the pretrained DenseNet201' because of the 'CUDA out of memory'.
+
+So, I changed the batch_size to 45 from 50. 
+
 ```
 train = self.parser.add_argument_group('Training Options')
 train.add_argument('--num_epochs', type=int, default=50, help='Total number of training epochs')
