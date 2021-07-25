@@ -2,37 +2,47 @@
 
 22410245
 
-
-### Final Results
-
-
-
-
-
 ### Loss( it is not the result of DenseNet201 )
 | loss | loss_pose | loss_betas | loss_keypoints | loss_shape |
 |:---:|:---:|:---:|:---:|:---:|
-|<img src="https://user-images.githubusercontent.com/42258047/126870107-ab7acda3-2505-43d3-b029-c6cf5a65a286.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/126870133-b5afb29d-9d13-4af7-92ea-72758369802f.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/126870124-7056e062-819f-4b5b-80ef-1d5bc1e5a913.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/126870113-313d1c15-6a62-4007-a39c-b1a036c75178.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/126870148-94dbfcb9-8dff-4c9c-a47e-63b321a43ba8.png" width="300">| 
+|<img src="https://user-images.githubusercontent.com/42258047/126899643-024f26b8-f41f-43d9-b464-90d7c7c9c7d9.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/126899658-6a19c453-095f-4009-bd08-340ed1726677.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/126899680-d3a45fac-53c3-4b6b-93fe-677175516c04.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/126899699-58449707-01ea-427a-b6a3-0d8b530cfb72.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/126899734-b872b51b-f43d-4cb0-a9ee-cc50a64cf850.png" width="300">| 
 
 
 ### Evaluation Results
 
 |  | 3dpw | mpi-inf-3dhp | h36m-p1 | h36m-p2 |
 |:--:|:--:|:--:|:--:|:--:|
-| MPJPE |  |  |  |  |
-| Reconstruction Error |  |  |  |  | 
+| MPJPE | 133.7542 | 115.5370 | 137.7607 | 152.2707 |
+| Reconstruction Error | 74.77 | 76.7496 | 77.0025 | 77.4746 | 
 
 
 | | lsp | 
 |:--:|:--:|
-| Accuracy |  |
-| F1 |  |
-| Parts Accuracy |  |
-| Parts F1 (BG) |  | 
+| Accuracy | 0.9001 |
+| F1 | 0.8379 |
+| Parts Accuracy | 0.87318 |
+| Parts F1 (BG) | 0.6063 | 
+
+
+### Final Results
+![image](https://user-images.githubusercontent.com/42258047/126900317-f26588c0-287a-452d-aa01-723cf7261e6e.png) ![image](https://user-images.githubusercontent.com/42258047/126900333-b1b5576c-c625-4c18-ab7a-e322921db8ef.png)
+
+![image](https://user-images.githubusercontent.com/42258047/126900339-5b12cccb-57bc-4842-8aff-17a68031ac88.png) ![image](https://user-images.githubusercontent.com/42258047/126900346-5cc6e1d4-7e31-4f9c-800c-6195f6ebcb3a.png)
+
+![image](https://user-images.githubusercontent.com/42258047/126900380-dd988978-205e-4895-a3af-55959d1b1c81.png) ![image](https://user-images.githubusercontent.com/42258047/126900389-6d54ca9f-af2b-443b-9e0b-56a7f6a37f5a.png)
+
+![image](https://user-images.githubusercontent.com/42258047/126900408-c5cad757-3e9f-4cfb-ab32-46d951abfdca.png)
+
+
 
 
 ### Failure Case
 
+![image](https://user-images.githubusercontent.com/42258047/126900414-c515b167-ed9c-41de-8a32-10ffaf755dd9.png) ![image](https://user-images.githubusercontent.com/42258047/126900417-59c2e702-15c7-44de-bb60-9c920cbff0ed.png)
+
+![image](https://user-images.githubusercontent.com/42258047/126900425-a356b539-5a1b-4e89-ba95-a4111daab751.png) ![image](https://user-images.githubusercontent.com/42258047/126900439-4ba333f7-6041-478e-971e-e626db670385.png)
+
+![image](https://user-images.githubusercontent.com/42258047/126900447-342cbc5a-ec4e-4800-817a-9f8bc039dc11.png)
 
 
 ### train options
