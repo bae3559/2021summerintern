@@ -290,4 +290,20 @@ __2. nohup이나 tmux 사용__
  tail -f nohup.out
  을 치면 된다!! 
  
+ ----------------------------------------------------------------------------
+ 
+ #### 20210726 
+ 
+ __1. Prunning tutorial__
+ 
+ pytorch prunning tutorial 따라 해보기
+ 
+ __2. Prunning 적용시켜서 학습 시키기__
+ 
+ Resnet50 + P
+ Densenet169 + P
+ Densenet201 + P
+ 
+ 이렇게 세 개 결과 보기 
+ 
  
