@@ -61,6 +61,9 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 | train_DenseNet201 | parameter 수 22410245 | |
 | train_ResNet50_P |  resnet 50에 전체 sparsity 20%로 prunning을 적용시켰는데, 성능이 좋지 않았다....| |
 | train_MobileNetV2 | 그래서 다른 네트워크에 prunning을 적용시켜보는 것 보다 더 parameter가 작은 network를 실행시켜보려한다. 개수는 DenseNet121보다는 작지만 지금까지 Parameter에 비해 매우 작은 편이라 성능만 잘 나와준다면 좋겠다.  |  |
+
+
+
 근데 무슨 이유인진 몰라도 169 부터는 계속 CUDA out of memory로 인해서 ,, batchsize를 줄이고 잇따. 
 
 ----------------------------------------------------------------------------------------------------
