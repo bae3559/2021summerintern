@@ -22,9 +22,9 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 
 #### Parameter
 
-| method | resnet50 | densenet121 | densenet169 | densenet201 | 
-|:--:|:--:|:--:|:--:|:--:|
-|Parameter | 26,977,501 | 3,494,447 | 16,545,797 | 22,410,245 |
+| method | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 | 
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|Parameter | 26,977,501 | 3,494,447 | 16,545,797 | 22,410,245 | 5,901,189 |
 
 #### mpi-inf-3dhp
 
@@ -59,7 +59,8 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 | train_DenseNet121 | resnet 을 backbone 으로 한 위 학습들이랑 다르게 이번에는 Densenet 121을 백본으로 한 학습을 진행해보았다. 확실히 parameter 수가 엄청나게 차이난다. | 지금은 1epoch 돌고 있는데 위와 마찬가지로 loss 가 14-25 사이인거 같고 학습이 잘 될지는 해봐야 알 수 있을 듯 하다. | 
 | train_DenseNet169 | DenseNet169는 딱히 성능이 나오진 않았다. 실제로 loss도 그리 많이 낮아지지 않았고, 그래서 이번에는 DenseNet 169로 진행해보고자 한다. 파라미터 수 거의 1/2 넘게 작음! | resnet50 보다 성능도 좋다!  |
 | train_DenseNet201 | parameter 수 22410245 | |
-
+| train_ResNet50_P |  resnet 50에 전체 sparsity 20%로 prunning을 적용시켰는데, 성능이 좋지 않았다....| |
+| train_MobileNetV2 | 그래서 다른 네트워크에 prunning을 적용시켜보는 것 보다 더 parameter가 작은 network를 실행시켜보려한다. 개수는 DenseNet121보다는 작지만 지금까지 Parameter에 비해 매우 작은 편이라 성능만 잘 나와준다면 좋겠다.  |  |
 근데 무슨 이유인진 몰라도 169 부터는 계속 CUDA out of memory로 인해서 ,, batchsize를 줄이고 잇따. 
 
 ----------------------------------------------------------------------------------------------------
