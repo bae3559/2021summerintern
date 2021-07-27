@@ -6,12 +6,22 @@
 ### Train Results
 
 
+
 ### Evaluation Results
 
-|  | 3dpw | lsp | mpi-inf-3dhp | 
-|:--:|:--:|:--:|:--:|
-| MPJPE | 273.95 | | 287.97 |
-| Reconstruction Error | 127.44 | | 142.93 |
+|  | 3dpw | mpi-inf-3dhp | h36m-p1 | h36m-p2 |
+|:--:|:--:|:--:|:--:|:--:|
+| MPJPE | 273.95 | 287.97 | 353.41 | 282.18 |
+| Reconstruction Error | 127.44 | 142.93 | 145.54 | 140.70 | 
+
+
+| | lsp | 
+|:--:|:--:|
+| Accuracy | 83.9 |
+| F1 | 0.72 |
+| Parts Accuracy | 79.92 |
+| Parts F1 (BG) | 0.33 | 
+
 
 
 ### Train Parameters
