@@ -21,13 +21,13 @@ prunning을 하는 코드는 [예제 사이트](https://github.com/Huffon/nlp-va
 
 |  | 3dpw | mpi-inf-3dhp | h36m-p1 | h36m-p2 |
 |:--:|:--:|:--:|:--:|:--:|
-| MPJPE |  |  |  |  |
-| Reconstruction Error |  |  |  |  | 
+| MPJPE | 130.46 | 120.61 | 135.22 | 147.24 |
+| Reconstruction Error | 73.31 | 81.49 | 79.90 | 79.67 | 
 
 
 | | lsp | 
 |:--:|:--:|
-| Accuracy |  |
-| F1 |  |
-| Parts Accuracy |  |
-| Parts F1 (BG) |  | 
+| Accuracy | 0.8976 |
+| F1 | 0.84 |
+| Parts Accuracy | 0.8664 |
+| Parts F1 (BG) | 0.61 | 
