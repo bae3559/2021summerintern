@@ -15,3 +15,19 @@ prunning을 하는 코드는 [예제 사이트](https://github.com/Huffon/nlp-va
 이외의 다른 train option들은 이전 [train_smpl_lossr4](https://github.com/bae3559/2021summerintern/tree/main/train/train_add_smpl_loss4) 와 동일하다. 
 
 
+### Results
+
+### Evaluation Results
+
+|  | 3dpw | mpi-inf-3dhp | h36m-p1 | h36m-p2 |
+|:--:|:--:|:--:|:--:|:--:|
+| MPJPE |  |  |  |  |
+| Reconstruction Error |  |  |  |  | 
+
+
+| | lsp | 
+|:--:|:--:|
+| Accuracy |  |
+| F1 |  |
+| Parts Accuracy |  |
+| Parts F1 (BG) |  | 
