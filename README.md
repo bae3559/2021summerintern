@@ -301,9 +301,31 @@ __2. nohup이나 tmux 사용__
  __2. Prunning 적용시켜서 학습 시키기__
  
  Resnet50 + P
+ 
  Densenet169 + P
+ 
  Densenet201 + P
  
  이렇게 세 개 결과 보기 
  
+ --------------------------------------------------------------------
+ 
+ #### 20210727 
+ 
+ Prunning 결과가 딱히 성능향상에는 좋지 않았기 때문에, 
+ Prunning은 경량화를 하는데에만 사용하고 우선은 DenseNet이외의 network들로 조금 더 실험 해보고자 한다.
+ 
+__1. MobileNetV2 로 실험__
+
+__2. MobileNetV2 공부__
+
+[YOUTUBE](https://www.youtube.com/watch?v=7UoOFKcyIvM)
+
+[Blog](https://hoya012.github.io/blog/deeplearning-classification-guidebook-3/)
+
+에 정리된 내용들 기반으로 공부하기 
+
+
+
+
  
