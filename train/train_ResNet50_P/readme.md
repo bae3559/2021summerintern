@@ -14,6 +14,13 @@ prunning을 하는 코드는 [예제 사이트](https://github.com/Huffon/nlp-va
 
 이외의 다른 train option들은 이전 [train_smpl_lossr4](https://github.com/bae3559/2021summerintern/tree/main/train/train_add_smpl_loss4) 와 동일하다. 
 
+### Loss Results
+
+loss
+![image](https://user-images.githubusercontent.com/42258047/127101820-f404fd50-fe25-49c5-a020-3e137fb5c339.png)
+keypointloss
+![image](https://user-images.githubusercontent.com/42258047/127101855-9863a12c-dd73-423a-a49c-4aaaa44376a6.png)
+
 
 ### Results
 
@@ -37,3 +44,4 @@ training은 총 20시간 정도 걸렸으니 원래 ResNet50으로 training 했�
 
 하지만 정확도는 큰 차이가 없었다. 성능에는 큰 영향을 안 미치는 것으로 보인다. 
 
+GPU memory를 약 6000MiB 정도 사용했었다. 
