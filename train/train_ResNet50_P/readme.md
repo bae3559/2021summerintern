@@ -31,3 +31,9 @@ prunning을 하는 코드는 [예제 사이트](https://github.com/Huffon/nlp-va
 | F1 | 0.84 |
 | Parts Accuracy | 0.8664 |
 | Parts F1 (BG) | 0.61 | 
+
+
+training은 총 20시간 정도 걸렸으니 원래 ResNet50으로 training 했을 때 보다는 4시간 정도 줄었고, 실제로 GPU 사용 메모리가 많이 차이 났었다. 
+
+하지만 정확도는 큰 차이가 없었다. 성능에는 큰 영향을 안 미치는 것으로 보인다. 
+
