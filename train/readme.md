@@ -44,7 +44,7 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 
 #### prunning results
 
-| method | resnet50 | prunning resnet50 |
+| method | resnet50 | pruning resnet50 |
 |:--:|:--:|:--:|
 |  |  |  |
 
