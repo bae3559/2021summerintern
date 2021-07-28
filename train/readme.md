@@ -28,17 +28,27 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 
 #### mpi-inf-3dhp
 
-| method | resnet50 | densenet121 | densenet169 | densenet201 | 
-|:--:|:--:|:--:|:--:|:--:|
-| MPJPE | 117.69 | 287.97 | 112.89 | 115.5370 |
-| Reconstruction Error | 78.10 | 142.93 | 76.54 | 76.7496 |
+| method | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| MPJPE | 117.69 | 287.97 | 112.89 | 115.5370 |  |
+| Reconstruction Error | 78.10 | 142.93 | 76.54 | 76.7496 |  |
 
 #### 3dpw
 
-| method | resnet50 | densenet121 | densenet169 | densenet201 | 
-|:--:|:--:|:--:|:--:|:--:|
-| MPJPE | 129.72 | 273.95 | 121.13 | 133.7542 |
-| Reconstruction Error | 70.66 | 127.44 | 71.37 | 74.77 |
+| method | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| MPJPE | 129.72 | 273.95 | 121.13 | 133.7542 | |
+| Reconstruction Error | 70.66 | 127.44 | 71.37 | 74.77 | |
+
+
+
+#### prunning results
+
+| method | resnet50 | prunning resnet50 |
+|:--:|:--:|:--:|
+|  |  |  |
+
+
 
 
 #### lsp 
