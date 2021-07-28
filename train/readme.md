@@ -120,7 +120,11 @@ densenet이 아니라 resnet을 쓴 이유가 있을 것 같기도하다.
 
 DensNet201에는 적용시켜봐도 괜찮을 것 같다. 
 
-## MobileNetV2
+## MobileNet
+
+![image](https://user-images.githubusercontent.com/42258047/127288334-73c2b193-e0fa-4b20-98be-a13b8f88eec0.png)
+
+
 
 Prunning이 딱히 성능 향상에는 효과가 없었다. 
 
@@ -132,6 +136,7 @@ Prunning이 딱히 성능 향상에는 효과가 없었다.
 
 따라서 성능을 확인해보고 DenseNet169보다 좋은지 비교해보고자 한다. 
 
+성능이 DenseNet169 만큼 나오지는 않았다. 하지만 MobileNetV2보다 MobileNetV3가 훨씬 성능이 좋았던 만큼 MobileNetV3 - large로 테스트해보려한다. 
 
 ---------------------------------------------------------------------------------------------------
 
