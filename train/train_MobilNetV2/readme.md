@@ -27,3 +27,17 @@
 | F1 | 0.7999 |
 | Parts Accuracy | 85.04 |
 | Parts F1 (BG) | 0.5326 | 
+
+### Final Results
+
+![image](https://user-images.githubusercontent.com/42258047/127287245-6ac25844-b629-454d-9ae6-c2aca20473ba.png)
+![image](https://user-images.githubusercontent.com/42258047/127287012-aecc1922-ef91-49a2-b32e-a5ca1197256e.png)
+![image](https://user-images.githubusercontent.com/42258047/127287083-c98c8c27-df8b-4969-8266-772918aaf357.png)
+![image](https://user-images.githubusercontent.com/42258047/127287146-45cded92-0733-4e3e-a715-c0a0fc1d151f.png)
+
+### Failure case
+
+![image](https://user-images.githubusercontent.com/42258047/127287193-853f2a8f-08d2-478c-9a8e-c9adcfb67101.png)
+![image](https://user-images.githubusercontent.com/42258047/127287320-328e4139-530c-492e-ac5c-a647ee46164b.png)
+
+
