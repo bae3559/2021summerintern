@@ -2,12 +2,10 @@
 
 4,674,921
 
-
-
 ### Loss
 | loss | loss_pose | loss_betas | loss_keypoints | loss_shape |
 |:---:|:---:|:---:|:---:|:---:|
-|<img src="https://user-images.githubusercontent.com/42258047/127503328-c4e0c3cc-9853-45fd-b114-400d4c666670.png" width="300"> | <img src="" width="300"> | <img src="" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/127503849-43cc3a2e-15c7-464b-ae4c-cd4d74d7a84a.png" width="300"> | <img src="" width="300">| 
+|<img src="https://user-images.githubusercontent.com/42258047/127503328-c4e0c3cc-9853-45fd-b114-400d4c666670.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/127505674-8635efb1-63ca-4af1-98ba-4db606449fbd.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/127505555-7b4f2c8d-3001-4403-93ae-3fafb2066827.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/127503849-43cc3a2e-15c7-464b-ae4c-cd4d74d7a84a.png" width="300"> | <img src="https://user-images.githubusercontent.com/42258047/127505824-b38ea8ed-b979-458a-9e8b-b18693954e4b.png" width="300">| 
 
 
 ### Evaluation Results
