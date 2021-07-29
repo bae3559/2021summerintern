@@ -35,10 +35,10 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 
 #### 3dpw
 
-| models | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 | MobileNetV3 |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| MPJPE | 129.72 | 273.95 | 121.13 | 133.7542 | 138.997 |  |
-| Reconstruction Error | 70.66 | 127.44 | 71.37 | 74.77 | 79.743 |  |
+| models | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 | MobileNetV3 | ShuffleNetV2_X1.0 |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| MPJPE | 129.72 | 273.95 | 121.13 | 133.7542 | 138.997 |  |  |  
+| Reconstruction Error | 70.66 | 127.44 | 71.37 | 74.77 | 79.743 |  |   |
 
 
 
