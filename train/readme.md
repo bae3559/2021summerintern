@@ -32,8 +32,8 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 * HMR MPJPE 124.2 
 | models | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 | MobileNetV3-L(scratch) | MobileNetV3-L(pretrained) | ShuffleNetV2_X1.0 |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| MPJPE | 117.69 | 287.97 | 112.89 | 115.5370 | 129.7836 |  |  |
-| Reconstruction Error | 78.10 | 142.93 | 76.54 | 76.7496 | 89.40 |  |  |
+| MPJPE | 117.69 | 287.97 | 112.89 | 115.5370 | 129.7836 |  |  |  |
+| Reconstruction Error | 78.10 | 142.93 | 76.54 | 76.7496 | 89.40 |  |  |  |
 
 #### 3dpw
 
