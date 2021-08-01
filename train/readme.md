@@ -35,15 +35,15 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 
 | models | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 | MobileNetV3-L(scratch) | MobileNetV3-L(pretrained) | ShuffleNetV2_X1.0 |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| MPJPE | 117.69 | 287.97 | 112.89 | 115.5370 | 129.7836 |  |  | 152.72 |
-| Reconstruction Error | 78.10 | 142.93 | 76.54 | 76.7496 | 89.40 |  |  | 101.94 |
+| MPJPE | 117.69 | 287.97 | 112.89 | 115.5370 | 129.7836 | 185.7491 | 132.5331 | 152.72 |
+| Reconstruction Error | 78.10 | 142.93 | 76.54 | 76.7496 | 89.40 | 107.4701 | 88.8836 | 101.94 |
 
 #### 3dpw
 
 | models | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 | MobileNetV3-L(scratch) | MobileNetV3-L(pretrained) | ShuffleNetV2_X1.0 |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| MPJPE | 129.72 | 273.95 | 121.13 | 133.7542 | 138.997 |  |  | 155.16 |  
-| Reconstruction Error | 70.66 | 127.44 | 71.37 | 74.77 | 79.743 |  |  | 86.21 |
+| MPJPE | 129.72 | 273.95 | 121.13 | 133.7542 | 138.997 | 227.0434 | 152.38 | 155.16 |  
+| Reconstruction Error | 70.66 | 127.44 | 71.37 | 74.77 | 79.743 | 117.0368 | 84.41 | 86.21 |
 
 
 
