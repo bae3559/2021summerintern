@@ -25,6 +25,20 @@ shape loss
 ![image](https://user-images.githubusercontent.com/42258047/127770075-b56fb0d5-38f6-4fec-b72f-2e73e78b5696.png)
 
 
+### Evaluation Results
+
+|  | 3dpw | mpi-inf-3dhp | h36m-p1 | h36m-p2 |
+|:--:|:--:|:--:|:--:|:--:|
+| MPJPE | 125.9358 | 118.0348 | 130.0594 | 141.0075 |
+| Reconstruction Error | 76.1138 | 78.8814 | 76.6511 | 76.2778 | 
+
+
+| | lsp | 
+|:--:|:--:|
+| Accuracy | 89.7898 |
+| F1 | 0.8347 |
+| Parts Accuracy | 87.0775 |
+| Parts F1 (BG) | 0.6056 | 
 
 
 
