@@ -29,16 +29,16 @@ regr shape loss
 
 |  | 3dpw | mpi-inf-3dhp | h36m-p1 | h36m-p2 |
 |:--:|:--:|:--:|:--:|:--:|
-| MPJPE |  |  |  |  |
-| Reconstruction Error |  |  |  |  | 
+| MPJPE | 227.0434 | 185.7491 | 282.9918 | 252.5548 |
+| Reconstruction Error | 117.0368 | 107.4701 | 150.7496 | 142.5794 | 
 
 
 | | lsp | 
 |:--:|:--:|
-| Accuracy |  |
-| F1 |  |
-| Parts Accuracy |  |
-| Parts F1 (BG) |  | 
+| Accuracy | 84.98 |
+| F1 | 0.7409 |
+| Parts Accuracy | 81.42 |
+| Parts F1 (BG) | 0.3941 | 
 
 ### Final Results
 
