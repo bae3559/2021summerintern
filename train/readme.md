@@ -70,15 +70,20 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 | train_add_smpl_loss | 이번에는 smpl loss 들을 추가함. | 근데 이상하게 중간에 22epoch중에 에러가 뜸. 
 | train_add_smpl_loss2 | 위와 동일하게 2트 | 하지만 마찬가지로 loss가 너무 큼. 그리고 pose, beta가 전혀 업데이트가 안되는 것 같음.
 | train_add_smpl_loss3 | 이것 저것 문제점을 고침. has_smpl이라는 값이 이상하게 다 0이었는데 이는 mixed dataset에서 indexing을 0부터 시작하도록 고쳐줌. 그리고 tqdm 부분을 조금 고쳐서 각 loss들이 같이 progress bar에 나타나게 수정함. | 중간에 결과를 확인했는데 일단 keypoint loss랑 loss 자체가 너무 너무 커서 ... 뭔가 ..이상함..  이유 중 하나로 생각 되는 것은 내가 pretrained resnet을 안쓰고 쌩으로 다 하려해서..그랬던 것으로 알게 되어 4는 pretrained 부분을 Trure로 다시 고쳐서 시도 함. 
-|train_add_smpl_loss4 | mymodel() 부분에서 pretrained=True로 다시 고쳤다. | 현제 0720날짜로 11시쯤 시작함. loss값은 약 14-20 사이로 정상적인 것 같음.. 위에서는 e7까지 같던 것을 생각함ㄴ 매우 정상적. |
-| train_DenseNet121 | resnet 을 backbone 으로 한 위 학습들이랑 다르게 이번에는 Densenet 121을 백본으로 한 학습을 진행해보았다. 확실히 parameter 수가 엄청나게 차이난다. | 지금은 1epoch 돌고 있는데 위와 마찬가지로 loss 가 14-25 사이인거 같고 학습이 잘 될지는 해봐야 알 수 있을 듯 하다. | 
-| train_DenseNet169 | DenseNet169는 딱히 성능이 나오진 않았다. 실제로 loss도 그리 많이 낮아지지 않았고, 그래서 이번에는 DenseNet 169로 진행해보고자 한다. 파라미터 수 거의 1/2 넘게 작음! | resnet50 보다 성능도 좋다!  |
-| train_DenseNet201 | parameter 수 22410245 | |
-| train_ResNet50_P |  resnet 50에 전체 sparsity 20%로 prunning을 적용시켰는데, 성능이 좋지 않았다....| |
-| train_MobileNetV2 | 그래서 다른 네트워크에 prunning을 적용시켜보는 것 보다 더 parameter가 작은 network를 실행시켜보려한다. 개수는 DenseNet121보다는 작지만 지금까지 Parameter에 비해 매우 작은 편이라 성능만 잘 나와준다면 좋겠다.  |  |
-| train_ShuffleNetV2 | MobileNetV3를 돌려보려했으나, 공식 코드가 좀 에러가 나서,, 뭔가 고쳐보다가 일단 시간상 ShuffleNetV2를 먼저 돌렸다. | 근데 이상하게 코드를따로 수정하진 않았는ㄴ데 gpu util이 낮고,glances에서 확인해본 결과 cpu를 엄청 많이 쓴다.왜지..?  | 
-| train_MobileNetV3 | MobileNetV3는 torchvision version문제로 pretrained weight를 다운받는 것이 어려운 상황이다. 따라서 일단 scratch로 처음부터 training하는데 잘 될지는 모르겠다. ㅜㅜ |  엄청 학습이 안되는 건 아니다. 쉬운 자세들은 곧 잘 따라하는 것 같고 현재 40epoch인데 loss는 10정도이다. 아무래도 여기서 더 내려가는 것 같진 않고,, 다른 model 들 처럼 loss가 막 3,4 까지 가진 않을 것 같다.  |
-| train_MobileNetV3_L_pretrained | MobileNetV3 pretrained version을 디버깅하는데 성공해서 돌려보려한다! 이김에 pretrained version과 scratch로 했을 때의 차이도 볼 수 있을 듯 하다. |  |
+|[train_add_smpl_loss4](https://github.com/bae3559/2021summerintern/tree/main/train/train_add_smpl_loss4) | mymodel() 부분에서 pretrained=True로 다시 고쳤다. | 현제 0720날짜로 11시쯤 시작함. loss값은 약 14-20 사이로 정상적인 것 같음.. 위에서는 e7까지 같던 것을 생각함ㄴ 매우 정상적. |
+| [train_DenseNet121](https://github.com/bae3559/2021summerintern/tree/main/train/train_DenseNet121) | resnet 을 backbone 으로 한 위 학습들이랑 다르게 이번에는 Densenet 121을 백본으로 한 학습을 진행해보았다. 확실히 parameter 수가 엄청나게 차이난다. | 지금은 1epoch 돌고 있는데 위와 마찬가지로 loss 가 14-25 사이인거 같고 학습이 잘 될지는 해봐야 알 수 있을 듯 하다. | 
+| [train_DenseNet169](https://github.com/bae3559/2021summerintern/tree/main/train/train_DenseNet169) | DenseNet169는 딱히 성능이 나오진 않았다. 실제로 loss도 그리 많이 낮아지지 않았고, 그래서 이번에는 DenseNet 169로 진행해보고자 한다. 파라미터 수 거의 1/2 넘게 작음! | resnet50 보다 성능도 좋다!  |
+| [train_DenseNet201](https://github.com/bae3559/2021summerintern/tree/main/train/train_DenseNet201) | parameter 수 22410245 | |
+| [train_ResNet50_P](https://github.com/bae3559/2021summerintern/tree/main/train/train_ResNet50_P) |  resnet 50에 전체 sparsity 20%로 prunning을 적용시켰는데, 성능이 좋지 않았다....| |
+| [train_MobileNetV2](https://github.com/bae3559/2021summerintern/tree/main/train/train_MobilNetV2) | 그래서 다른 네트워크에 prunning을 적용시켜보는 것 보다 더 parameter가 작은 network를 실행시켜보려한다. 개수는 DenseNet121보다는 작지만 지금까지 Parameter에 비해 매우 작은 편이라 성능만 잘 나와준다면 좋겠다.  |  |
+| [train_ShuffleNetV2](https://github.com/bae3559/2021summerintern/tree/main/train/train_ShuffleNetV2) | MobileNetV3를 돌려보려했으나, 공식 코드가 좀 에러가 나서,, 뭔가 고쳐보다가 일단 시간상 ShuffleNetV2를 먼저 돌렸다. | 근데 이상하게 코드를따로 수정하진 않았는ㄴ데 gpu util이 낮고,glances에서 확인해본 결과 cpu를 엄청 많이 쓴다.왜지..?  | 
+| [train_MobileNetV3](https://github.com/bae3559/2021summerintern/tree/main/train/trian_MobileNetV3) | MobileNetV3는 torchvision version문제로 pretrained weight를 다운받는 것이 어려운 상황이다. 따라서 일단 scratch로 처음부터 training하는데 잘 될지는 모르겠다. ㅜㅜ |  엄청 학습이 안되는 건 아니다. 쉬운 자세들은 곧 잘 따라하는 것 같고 현재 40epoch인데 loss는 10정도이다. 아무래도 여기서 더 내려가는 것 같진 않고,, 다른 model 들 처럼 loss가 막 3,4 까지 가진 않을 것 같다.  |
+| [train_MobileNetV3_L_pretrained](https://github.com/bae3559/2021summerintern/tree/main/train/train_MobileNetV3_2) | MobileNetV3 pretrained version을 디버깅하는데 성공해서 돌려보려한다! 이김에 pretrained version과 scratch로 했을 때의 차이도 볼 수 있을 듯 하다. |  |
+정도이다. 아무래도 여기서 더 내려가는 것 같진 않고,, 다른 model 들 처럼 loss가 막 3,4 까지 가진 않을 것 같다.  |
+| [train_DenseNet169_ch](https://github.com/bae3559/2021summerintern/tree/main/train/train_DenseNet169_ch) | 이제 슬슬 encoder 부분말고 regression 부분도 실험을 진행해보고자 조금씩 바꿔보고있다. 일단 가장 큰 문제는 사실 가벼운 네트워크들을 쓰면 쓸수록 encoder부분보다 regression부분의 fc layer 때문에 parameter가 훨 크다는 것. 그래서 regression부분의 fc layer을 줄여보고자 했다. 얼마나 줄여도 괜찮은지? 비교를 해보고자! ch 는 fc2를 없애고 n_iter은 3으로 그대로인 경우이다. |  |
+| [train_DenseNet169_ch2](https://github.com/bae3559/2021summerintern/tree/main/train/train_DenseNet169_ch2) | 이번에는 fc2 layer도 없애고 n_iter을 2로 둔 경우이다.  | |
+| train_DenseNet169_ch3 | 원래는 regression부분을 시작하기 전에 classifier로 1000 만드는데, 이걸 애초에 좀 줄여볼까 한다. 1000 -> npose+13으로바꿔서 fc layer을 거치는건 딱히 문제가 되지 않을 것 같아서..? 물론 feature의 손실은 어느정도 있겠지만, 그래도 한 번 해보면 좋을 듯 하다!!  | | 
+
 
 근데 무슨 이유인진 몰라도 169 부터는 계속 CUDA out of memory로 인해서 ,, batchsize를 줄이고 잇따. 
 
