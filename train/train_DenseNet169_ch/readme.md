@@ -48,3 +48,8 @@ shape loss
 ![image](https://user-images.githubusercontent.com/42258047/127769812-9091de0a-8a56-404f-b622-1264c1ed9e60.png)
 ![image](https://user-images.githubusercontent.com/42258047/127769817-3cc495be-691b-4756-8624-dd4b10e052f8.png)
 ![image](https://user-images.githubusercontent.com/42258047/127769829-66172549-ebc6-4039-8bd9-6b06abc83bbb.png)
+![image](https://user-images.githubusercontent.com/42258047/127790849-12f10874-4b64-472d-ad42-6b01675bff51.png)
+![image](https://user-images.githubusercontent.com/42258047/127790871-a299025f-920a-4f6e-83b1-3789d7d05399.png)
+![image](https://user-images.githubusercontent.com/42258047/127790899-c13ede28-921c-4bb2-b94d-352ab5a4ada0.png)
+
+
