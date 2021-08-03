@@ -24,7 +24,7 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 
 | models | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 | MobileNetV3-L(scratch) | ShuffleNetV2_X1.0 |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|Parameter | 26,977,501 | 2747691 | 16,545,797 | 22,410,245 | 5,901,189 |  | 4,674,921 |
+|Parameter | 26,977,501 | 2,747,691 | 16,545,797 | 22,410,245 | 5,901,189 | 7,879,349 | 4,674,921 |
 
 #### mpi-inf-3dhp
 
