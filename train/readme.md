@@ -45,7 +45,13 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 | MPJPE | 129.72 | 273.95 | 121.13 | 133.7542 | 138.997 | 227.0434 | 152.38 | 155.16 |  
 | Reconstruction Error | 70.66 | 127.44 | 71.37 | 74.77 | 79.743 | 117.0368 | 84.41 | 86.21 |
 
+pruning을 제대로 안했다는 걸 깨달았다. 어쩐지 너무 변화가 없다고 생각했는데, 
 
+pruning은 
+1. pretraining 하기 
+2. pretrained model pruning 해서 model 저장
+3. fine tuning 
+순서로 진행 되어야한다. 
 
 #### prunning results
 
