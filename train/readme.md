@@ -55,11 +55,13 @@ pruning은
 
 #### prunning results
 
+
 | models | resnet50 | pruning resnet50 |
 |:--:|:--:|:--:|
-|  |  |  |
-
-
+| 3DPW-MPJPE | 129.72 | 121.2628 |
+| 3DPW-RecError | 70.66 | 72.6314 |
+| mpi-inf-3dhp MPJPE | 117.69 | 115.0160 |
+| mpi-inf-3dhp RecErr | 78.10 | 79.2295 |
 
 
 #### lsp 
