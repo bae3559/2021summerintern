@@ -9,8 +9,8 @@ batch_size 100으로 다시 해봤는데 생각보다 loss가 더 작다.
 
 |  | 3dpw | mpi-inf-3dhp | h36m-p1 | h36m-p2 |
 |:--:|:--:|:--:|:--:|:--:|
-| MPJPE |  |  |  |  |
-| Reconstruction Error |  |  |  |  | 
+| MPJPE |  | 132.71145 |  |  |
+| Reconstruction Error |  | 89.9797 |  |  | 
 
 
 | | lsp | 
