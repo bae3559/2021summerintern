@@ -94,6 +94,30 @@ pruning은
 
 근데 무슨 이유인진 몰라도 169 부터는 계속 CUDA out of memory로 인해서 ,, batchsize를 줄이고 잇따. 
 
+'''
+        
+        
+        for i in range(n_iter):
+ 
+            xc = torch.cat([xv,pred_pose, pred_shape, pred_cam],1)
+            xc = self.fc1(xc)
+            xc = self.drop1(xc)
+            xc = self.fc2(xc)
+            xc = self.drop2(xc)
+            
+            pose = torch.cat((self.decpose(xc), pred_pose), 1)
+            #pose1 = torch.cat((self.decpose(xc), pred_pose),1)
+            shape = torch.cat((self.decshape(xc), pred_shape), 1)
+            cam = torch.cat((self.deccam(xc),pred_cam), 1)
+            
+            pred_pose = self.poseconv(pose)
+            pred_shpe = self.shapeconv(shape)
+            pred_cam = self.camconv(cam)
+            
+        pred_rotmat = rot6d_to_rotmat(pred_pose).view(batch_size, 24, 3, 3)
+ '''
+모바일넷 뒷 부분 바꿨던 거
+
 ----------------------------------------------------------------------------------------------------
 
 ## DenseNet
