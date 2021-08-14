@@ -22,9 +22,9 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 
 #### Parameter 
 
-| models | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 | MobileNetV3-L | ShuffleNetV2_X1.0 |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|Parameter | 26,977,501 | 2,747,691 | 16,545,797 | 22,410,245 | 5,901,189 | 7,879,349 | 4,674,921 |
+| models | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 | MobileNetV3-L | ShuffleNetV2_X1.0 | my_mobilenet_v3 | 
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|Parameter | 26,977,501 | 2,747,691 | 16,545,797 | 22,410,245 | 5,901,189 | 7,879,349 | 4,674,921 | 3,864,621 |
 
 #### mpi-inf-3dhp
 
@@ -33,11 +33,11 @@ beta와 theta가 이상한 값이라는 것을 알 수 있다.
 * HMR MPJPE 124.2 
 
 
-| models | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 | MobileNetV3-L(scratch) | MobileNetV3-L(pretrained) | ShuffleNetV2_X1.0 |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| MPJPE | 117.69 | 287.97 | 112.89 | 115.5370 | 129.7836 | 185.7491 | 132.5331 | 152.72 |
-| Reconstruction Error | 78.10 | 142.93 | 76.54 | 76.7496 | 89.40 | 107.4701 | 88.8836 | 101.94 |
-
+| models | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 | MobileNetV3-L(scratch) | MobileNetV3-L(pretrained) | ShuffleNetV2_X1.0 | my_mobilenet_v3 | 
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| MPJPE | 117.69 | 287.97 | 112.89 | 115.5370 | 129.7836 | 185.7491 | 132.5331 | 152.72 |  |
+| Reconstruction Error | 78.10 | 142.93 | 76.54 | 76.7496 | 89.40 | 107.4701 | 88.8836 | 101.94 |  |
+ 
 #### 3dpw
 
 | models | resnet50 | densenet121 | densenet169 | densenet201 | MobileNetV2 | MobileNetV3-L(scratch) | MobileNetV3-L(pretrained) | ShuffleNetV2_X1.0 |
