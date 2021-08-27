@@ -65,19 +65,19 @@ lsp inference time 1.256s
 
 # After pruning2 & finetuning 
 + pruning 20%
-# fintuning 10epoch
+# fintuning 8epoch
 |  | 3dpw | mpi-inf-3dhp | h36m-p1 | h36m-p2 |
 |:--:|:--:|:--:|:--:|:--:|
-| MPJPE |  |  |  |  |
-| Reconstruction Error |  |  |  |  | 
+| MPJPE | 143.39 |  |  |  |
+| Reconstruction Error | 80.75 |  |  |  | 
 
 
 | | lsp | 
 |:--:|:--:|
-| Accuracy |  |
-| F1 |  |
-| Parts Accuracy |  |
-| Parts F1 (BG) |  |
+| Accuracy | 0.8912772368 |
+| F1 | 0.8232139628 |
+| Parts Accuracy | 0.8628837087 |
+| Parts F1 (BG) | 0.57975264512 |
 
 # fintuning 20epoch
 |  | 3dpw | mpi-inf-3dhp | h36m-p1 | h36m-p2 |
